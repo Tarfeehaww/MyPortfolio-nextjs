@@ -1,4 +1,8 @@
 "use client";
+import { MdEmail } from 'react-icons/md'; // Material Design icons
+import { FaFacebook } from 'react-icons/fa'; // Font Awesome icons
+import { FaInstagram } from 'react-icons/fa6'; // Font Awesome 6 icons
+
 
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
@@ -68,3 +72,5 @@ export default function Home() {
     </div>
   );
 }
+
+
