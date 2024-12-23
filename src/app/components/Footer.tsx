@@ -1,10 +1,10 @@
-export default function Footer () {
-    return(
-        <div className="mt-16 py-6 text-center bg-black">
-        &#169; TarfeehaHussain | All rights reserved 2024.             
-    </div>
-
-
+export default function Footer() {
+    return (
+      <footer className="mt-16 py-6 text-center bg-black text-white">
+        <p className="text-sm md:text-base">
+          &#169; {new Date().getFullYear()} Tarfeeha Hussain | All rights reserved.
+        </p>
+      </footer>
+    );
+  }
   
-     
-    )}

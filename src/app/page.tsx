@@ -1,23 +1,18 @@
 "use client";
-import { MdEmail } from 'react-icons/md'; // Material Design icons
-import { FaFacebook } from 'react-icons/fa'; // Font Awesome icons
-import { FaInstagram } from 'react-icons/fa6'; // Font Awesome 6 icons
-
-
 import React from "react";
-import { TypeAnimation } from "react-type-animation";
+import { TypeAnimation } from 'react-type-animation';
 
 export default function Home() {
   return (
     <div
-    className="min-h-screen bg-no-repeat bg-[url(/images/profile.png)] bg-right lg:bg-[85%] bg-cover relative pt-20"         
-        style={{ backgroundSize: "35%" }}       
-      > 
+      className="min-h-screen bg-no-repeat bg-[url(/images/profile.png)] bg-right lg:bg-[85%] bg-cover relative pt-20"
+      style={{ backgroundSize: "35%" }}
+    >
       <div className="absolute inset-0 flex items-center justify-center lg:justify-start px-4 lg:px-10">
         <div className="text-white text-center lg:text-left ml-6 sm:ml-16 lg:ml-20 mb-12 sm:mb-16 mt-12 sm:mt-20 lg:mt-32">
           <h1 className="text-xl sm:text-2xl lg:text-3xl font-extrabold mb-4">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-lg sm:text-xl lg:text-5xl font-serif leading-tight">
-              Hello, I'm
+              Hello, I&apos;m
             </span>
           </h1>
 
@@ -43,10 +38,10 @@ export default function Home() {
 
           <div className="mt-8 text-lg sm:text-xl lg:text-2xl font-light max-w-2xl mx-auto lg:mx-0">
             <p>
-              I'm a passionate web designer with a focus on creating beautiful
+              I&apos;m a passionate web designer with a focus on creating beautiful
               and functional user experiences. With experience in UI/UX design,
               I specialize in crafting responsive, user-friendly websites that
-              make an impact. I’m always eager to learn and take on new
+              make an impact. I&apos;m always eager to learn and take on new
               challenges in the ever-evolving world of web design.
             </p>
           </div>
@@ -72,5 +67,3 @@ export default function Home() {
     </div>
   );
 }
-
-
